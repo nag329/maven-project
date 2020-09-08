@@ -26,17 +26,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <servlet>
-       <servlet-name>yourServlet</servlet-name>
-       <servlet-class>com.example.YourServlet</servlet-class>
-      </servlet>
-      <servlet-mapping>
-        <servlet-name>yourServlet</servlet-name>
-        <url-pattern>/servlet</url-pattern>  <!-- This is the URL of the servlet. -->
-      </servlet-mapping>
-    </dependency>
-      
   </dependencies>
   
 
