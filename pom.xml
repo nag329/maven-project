@@ -27,10 +27,14 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>${servlet-api-version}</version>
-      <scope>provided</scope>
+      <servlet>
+       <servlet-name>yourServlet</servlet-name>
+       <servlet-class>com.example.YourServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+        <servlet-name>yourServlet</servlet-name>
+        <url-pattern>/servlet</url-pattern>  <!-- This is the URL of the servlet. -->
+      </servlet-mapping>
     </dependency>
       
   </dependencies>
